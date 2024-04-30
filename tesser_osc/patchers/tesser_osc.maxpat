@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 6,
-			"revision" : 2,
+			"minor" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -123,10 +123,10 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 596.0, 880.0, 50.0, 49.0 ],
+					"patching_rect" : [ 596.0, 880.0, 51.0, 49.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 14.0, 417.0, 128.0, 22.0 ],
-					"text" : "/source/1/azim 66"
+					"text" : "/source/1/azim -177"
 				}
 
 			}
@@ -165,7 +165,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 7.0, 88.0, 50.0, 43.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 88.0, 50.0, 43.0 ],
+					"presentation_rect" : [ 182.0, 12.0, 50.0, 43.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.dial",
@@ -194,8 +194,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -249,7 +249,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 199.0, 284.0, 50.0, 22.0 ],
-									"text" : "66"
+									"text" : "-177"
 								}
 
 							}
@@ -523,7 +523,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 55.0, 129.0, 43.5, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 55.0, 129.0, 43.5, 15.0 ],
+					"presentation_rect" : [ 230.0, 61.0, 43.5, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
@@ -553,7 +553,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 7.0, 129.0, 50.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 129.0, 50.0, 15.0 ],
+					"presentation_rect" : [ 182.0, 61.0, 50.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
@@ -585,8 +585,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -688,7 +688,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 359.0, 253.0, 50.0, 22.0 ],
-									"text" : "64 0"
+									"text" : "1 127"
 								}
 
 							}
@@ -1090,13 +1090,12 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ -57.0, 516.5, 100.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.5, 142.0, 91.75, 15.0 ],
+					"presentation_rect" : [ 182.5, 74.0, 91.75, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "default", "linear (range)" ],
 							"parameter_longname" : "live.menu",
 							"parameter_mmax" : 1,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.menu",
 							"parameter_type" : 2
 						}
@@ -1118,14 +1117,13 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 459.0, 60.0, 54.0, 14.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 101.25, 142.0, 52.0, 15.0 ],
+					"presentation_rect" : [ 186.25, 142.0, 52.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "live.text",
 							"parameter_mmax" : 1,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -1206,7 +1204,6 @@
 						"valueof" : 						{
 							"parameter_invisible" : 1,
 							"parameter_longname" : "textedit[4]",
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "textedit",
 							"parameter_type" : 3
 						}
@@ -1324,7 +1321,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 150.0, 733.0, 218.0, 22.0 ],
-					"text" : "66"
+					"text" : "-177"
 				}
 
 			}
@@ -1373,7 +1370,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 280.0, 540.5, 24.0, 24.0 ],
+					"patching_rect" : [ 280.0, 495.5, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 150.5, 137.5, 24.0, 24.0 ]
 				}
@@ -1841,8 +1838,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2641,7 +2638,6 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "readem-button",
 							"parameter_mmax" : 1,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "readem-button",
 							"parameter_type" : 2
 						}
@@ -2717,7 +2713,6 @@
 						"valueof" : 						{
 							"parameter_invisible" : 1,
 							"parameter_longname" : "textedit[3]",
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "textedit",
 							"parameter_type" : 3
 						}
@@ -2750,14 +2745,13 @@
 						"valueof" : 						{
 							"parameter_invisible" : 1,
 							"parameter_longname" : "textedit[2]",
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "textedit",
 							"parameter_type" : 3
 						}
 
 					}
 ,
-					"text" : "66",
+					"text" : "-177",
 					"textcolor" : [ 0.875, 0.996, 1.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "textedit[2]"
@@ -2783,7 +2777,6 @@
 						"valueof" : 						{
 							"parameter_invisible" : 1,
 							"parameter_longname" : "textedit[1]",
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "textedit",
 							"parameter_type" : 3
 						}
@@ -2814,7 +2807,6 @@
 						"valueof" : 						{
 							"parameter_invisible" : 1,
 							"parameter_longname" : "textedit",
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "textedit",
 							"parameter_type" : 3
 						}
@@ -2852,7 +2844,6 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "osc-INport",
 							"parameter_mmax" : 65535.0,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "osc-INport",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -2895,7 +2886,6 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "osc-toggle",
 							"parameter_mmax" : 1,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "osc-toggle",
 							"parameter_type" : 2
 						}
