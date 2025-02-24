@@ -2,8 +2,8 @@
 	"name" : "tesser_osc",
 	"version" : 1,
 	"creationdate" : 3792834984,
-	"modificationdate" : 3792837738,
-	"viewrect" : [ 25.0, 106.0, 300.0, 500.0 ],
+	"modificationdate" : 3814712991,
+	"viewrect" : [ -1370.0, 184.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -14,6 +14,11 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"New File.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 
 		}
